@@ -1,0 +1,19 @@
+var;source;description
+eqi21_n2;University of Gothenburg;European Quality of Government Index
+qualityp21_n2;University of Gothenburg;Indice de qualité
+impartialityp21_n2;University of Gothenburg;Indice d'impartialité
+corruptionp21_n2;University of Gothenburg;Indice de corruption 
+accesInternetMenage;Eurostat;Taux de ménages ayant accès à Internet à domicile
+jeuneSansEmploiFormation;Eurostat;Taux de jeunes sans emploi ni formation
+tauxmort_infantile;Eurostat;Taux de mortalité infantile (pour 1000 naissances)
+nbPop_1erJanv;Eurostat;Nombre d'habitants (au 1er Janvier)
+pib_par_reg;Eurostat;PIB total
+pop_densite;Eurostat;Densité de population
+popNivParEtude20_24;Eurostat;Niveau de formation de la population âgée entre 20 et 24 ans  
+popNivParEtude25_64;Eurostat;Niveau de formation de la population âgée entre 25 et 64 ans
+tauxChomage;Eurostat;Taux de chômage
+pib_hab;Eurostat;PIB par habitant
+log_pib_hab;Eurostat;Logarithme du PIB par habitant     
+lit_hop_par_hab;Eurostat;Nombre de lits d'hôpital par habitants
+chomage_jeunes;Eurostat;Taux de chômage chez les jeunes
+cluster;University of Gothenburg & Eurostat;4 clusters issus de la méthode des K-Means
