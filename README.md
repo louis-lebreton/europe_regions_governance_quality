@@ -4,7 +4,7 @@
 </p>
 
 ### Méthodes statistiques utilisées : 
-Régressions simples et multiples, méthode forward stepwise (critères AIC et BIC), methode des k-means (elbow method), arbre de classification 
+Régressions linéaires simples et multiples, méthode forward stepwise (critères AIC et BIC), methode des k-means (elbow method), arbre de classification 
 
 ### Objectif du projet : 
 
