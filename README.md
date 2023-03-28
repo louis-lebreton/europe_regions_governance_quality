@@ -19,7 +19,7 @@ Gothenburg notamment :
 - https://www.gu.se/en/quality-government/qog-data/data-downloads/european-quality-of-government-index)
 
 
-Le projet s’articule autour de plusieurs étapes :
+### Etapes du projet :
 - Recherche bibliographique
 - Construction de la base de données pour traiter le sujet
 - Analyse descriptive des données
