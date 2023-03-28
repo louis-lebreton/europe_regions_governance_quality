@@ -3,9 +3,6 @@
 <img src="app_shiny_image.jpg" alt="Application Shiny" width="850"/>
 </p>
 
-### Méthodes statistiques utilisées : 
-Régressions linéaires simples et multiples, méthode forward stepwise (critères AIC et BIC), methode des k-means (elbow method), arbre de classification 
-
 ### Objectif du projet : 
 
 __Analyse de la qualité de la gouvernance des régions européennes__. 
@@ -25,3 +22,9 @@ Gothenburg notamment :
 - Analyse descriptive des données
 - Cartographie des régions européennes (Réalisation d'une application Shiny)
 - Modélisation économétrique
+
+### Méthodes statistiques utilisées : 
+Régressions linéaires simples et multiples, méthode forward stepwise (critères AIC et BIC), methode des k-means (elbow method), arbre de classification 
+
+### Librairies utilisées :
+ggplot2, stats, dplyr, ggcorrplot, shiny, shinythemes, broom, geojsonio, viridis.
