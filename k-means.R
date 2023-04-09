@@ -1,5 +1,5 @@
 ### TER L3 MIASHS
-## Méthode des k-means
+## Méthode des K-Means
 
 ###############################################################################################################
 
@@ -10,7 +10,7 @@ getwd()
 ## Packages
 library(ggplot2)
 library(stats)
-
+library(openxlsx)
 ## Transformation des données ################################################################################
 
 df <- read.table(file="data_TER.csv",header=TRUE,sep=",")
@@ -44,8 +44,10 @@ plot(1:max_k, sse, type="b", xlab="Nombre de clusters", ylab="SSE") # on choisit
 # Méthode des k-means avec 4 clusters
 kmeans_result <- kmeans(df_num, centers = 4) 
 
-kmeans_result$centers # afficher les centres de chaque cluster
-table(kmeans_result$cluster) # nombre d'observations par clusters
+centers <- kmeans_result$centers # afficher les centres de chaque cluster
+tableau_centers <- as.data.frame(t(centers))
+ # nombre d'observations par clusters
+write.xlsx(tableau_centers,'tableau_centers.xlsx')
 
 df$cluster <- as.factor(kmeans_result$cluster) # ajout des clusters au df de base
 
