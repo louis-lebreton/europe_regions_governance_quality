@@ -7,24 +7,20 @@
 
 __Analysis of the quality of governance of European regions__. 
 
-L’objectif du projet est 
-d’analyser et expliquer avec un modèle économétrique les disparités au sein et entre les pays 
-européens de la qualité de gouvernance.
-Pour cela, nous utilisons les bases de données de Eurostat et de l’Université de 
-Gothenburg notamment :
+The project's goal is to analyze and explain, using an econometric model, the disparities in governance quality within and between European countries. For this, we use databases from Eurostat and the University of Gothenburg, including:
 - https://ec.europa.eu/eurostat/web/regions/data/database
 - https://www.gu.se/en/quality-government/qog-data/data-downloads/european-quality-of-government-index)
 
 
-### Etapes du projet :
-- Recherche bibliographique
-- Construction de la base de données pour traiter le sujet
-- Analyse descriptive des données
-- Cartographie des régions européennes (Réalisation d'une application Shiny)
-- Modélisation économétrique
+### Project steps :
+- Literature research
+- Building the database to address the topic
+- Descriptive analysis of the data
+- Mapping of European regions (Development of a Shiny application)
+- Econometric modeling
 
-### Méthodes statistiques utilisées : 
-Régressions linéaires simples et multiples, méthode forward stepwise (critères AIC et BIC), methode des k-means (elbow method), arbre de classification 
+### Statistical methods used:
+Linear regressions, forward stepwise method (AIC and BIC criteria), k-means method (elbow method), classification tree 
 
-### Librairies utilisées :
+### Libraries used :
 ggplot2, stats, dplyr, ggcorrplot, shiny, shinythemes, broom, geojsonio, viridis.
