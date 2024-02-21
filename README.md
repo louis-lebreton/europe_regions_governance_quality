@@ -1,11 +1,11 @@
-# Analyse de la qualité de la gouvernance des régions européennes - Projet TER de Licence 3 MIASHS (Semestre 6)
+# Analysis of the quality of governance of European regions
 <p align="center">
 <img src="app_shiny_image.jpg" alt="Application Shiny" width="850"/>
 </p>
 
-### Objectif du projet : 
+### Project goal : 
 
-__Analyse de la qualité de la gouvernance des régions européennes__. 
+__Analysis of the quality of governance of European regions__. 
 
 L’objectif du projet est 
 d’analyser et expliquer avec un modèle économétrique les disparités au sein et entre les pays 
